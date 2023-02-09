@@ -575,12 +575,12 @@ textarea {
   margin-top: 25px;
   text-transform: uppercase;
 }
-.corporate .title {
-  text-align: center;
-}
 .medicine ul li:not(:last-child),
 .corporate ul li:not(:last-child) {
   margin-bottom: 5px;
+}
+.corporate-scheme .title {
+  text-align: center;
 }
 .medicine .tablet-bloc-container table {
   border-top: 1px solid rgb(0, 113, 128);
