@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+
+
+    <link rel="stylesheet" href="./js/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/litepicker.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styleSeo.css">
+
+
+    <title>
+        Perola
+    </title>
+
+</head>
+
+<body>
+    <div class="page page-seo">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="header-row">
+                    <div class="header-nav nav">
+                        <ul>
+                            <li>
+                                <a href="./manifest.html"> манифест </a>
+                            </li>
+                            <li>
+                                <a href="./possibilities.html"> возможности </a>
+                            </li>
+                            <li>
+                                <a href="./contact.html"> контакты </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo">
+                        <!-- <img src="./img/logo3.svg" alt="" /> -->
+                        <a href="/" class="back-link">
+                            <svg width="28" height="38" viewBox="0 0 28 38" fill="none" class="logo-img"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.8051 3.5834e-07C10.5466 0.00129642 7.39595 1.16729 4.92171 3.28754C2.44747 5.40778 0.812677 8.34261 0.312387 11.5623C-0.187904 14.782 0.479269 18.0745 2.19348 20.8455C3.9077 23.6165 6.55603 25.6835 9.6605 26.6734C8.8815 25.8604 8.35855 24.8365 8.15661 23.7288C7.95467 22.6211 8.08264 21.4785 8.52463 20.443C8.96662 19.4074 9.70314 18.5245 10.6427 17.904C11.5822 17.2835 12.6834 16.9526 13.8094 16.9526C14.9354 16.9526 16.0366 17.2835 16.9761 17.904C17.9157 18.5245 18.6522 19.4074 19.0942 20.443C19.5362 21.4785 19.6641 22.6211 19.4622 23.7288C19.2603 24.8365 18.7373 25.8604 17.9583 26.6734C21.0635 25.6833 23.7123 23.6156 25.4265 20.8437C27.1406 18.0718 27.8072 14.7784 27.3058 11.5581C26.8044 8.33781 25.168 5.40292 22.6922 3.28336C20.2164 1.1638 17.0643 -0.000745798 13.8051 3.5834e-07Z"
+                                    fill="white" />
+                                <path
+                                    d="M0.0527344 28.446C0.0527344 28.446 3.53799 37.6768 13.8054 37.6768C24.0727 37.6768 27.558 28.446 27.558 28.446H0.0527344Z"
+                                    fill="white" />
+                            </svg>
+                            <div class="logo-text">
+                                <img src="./img/logo-text.svg" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="header-contacts">
+                        <ul>
+                            <li>
+                                <a href="tel:+7 999 224 71 23"> +7 999 224 71 23 </a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-link">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19.5 10.2511C19.5 15.3338 15.2599 19.4777 10 19.4777C4.74014 19.4777 0.5 15.3338 0.5 10.2511C0.5 5.1683 4.74014 1.02441 10 1.02441C15.2599 1.02441 19.5 5.1683 19.5 10.2511Z"
+                                            stroke="white" />
+                                        <path
+                                            d="M4.57654 10.0403L14.2182 6.42441C14.6657 6.26716 15.0565 6.5306 14.9115 7.18877L14.9124 7.18796L13.2707 14.7107C13.149 15.2441 12.8232 15.3738 12.3674 15.1225L9.86736 13.3304L8.66153 14.4603C8.5282 14.59 8.4157 14.6994 8.15737 14.6994L8.33487 12.2248L12.9682 8.15333C13.1699 7.98068 12.9232 7.88341 12.6574 8.05525L6.93154 11.5617L4.46321 10.8128C3.92737 10.6474 3.91571 10.2916 4.57654 10.0403Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""> EN </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section-h-trigger hero hero-bloc-seo single-page" data-section-trigger="default">
+            <img src="./img/page_bac_airTaxi.jpg" alt="Авиатакси/вертолет" class="hero-img" />
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-title">
+                        <h1>Авиатакси/вертолет</h1>
+                        <p>
+                            Авиатакси — это быстрый и удобный способ перемещения по одному городу, либо в ближайшие
+                            населённые пункты. Расстояние полёта — до 1000 км. Совершается он на небольших частных
+                            самолётах
+                            или вертолётах, вместительностью до 5 человек. Может стать как удобным транспортом,
+                            так и интересным вариантом досуга.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger desc modal-bloc modal-bloc-seo" data-section-trigger="dark">
+            <div class="new-container">
+                <h2 class="title">Рассчитаем <span>полет?</span></h2>
+                <div class="modal-step">
+                    <div class="modal-core">
+                        <form>
+                            <div class="modal-left">
+                                <div class="modal-booking-line-holder">
+                                    <div class="modal-order-inputs-holder">
+                                        <div class="modal-order-inputs" data-booking-index="0">
+                                            <div class="modal-order-input modal-order-input-from">
+                                                <div class="modal-order-input-title">
+                                                    откуда
+                                                </div>
+                                                <div class="modal-order-input-core">
+                                                    <input type="text" class="autocomplete-from" placeholder="Откуда"
+                                                        required>
+                                                    <div class="input-direction-change">
+                                                        <img src="./img/direction-change.svg" alt="" />
+                                                        <img src="./img/direction-change-v.svg" alt=""
+                                                            class="input-direction-change-mob" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-order-input modal-order-input-to">
+                                                <div class="modal-order-input-title">
+                                                    КУДА
+                                                </div>
+                                                <div class="modal-order-input-core">
+                                                    <input type="text" class="autocomplete-to" placeholder="Куда"
+                                                        required>
+                                                </div>
+                                            </div>
+                                            <div class="modal-order-date">
+                                                <input type="text" class="input-calendar-core" />
+                                                <div class="modal-order-input">
+                                                    <div class="modal-order-input-title">
+                                                        КОГДА
+                                                    </div>
+                                                    <div class="modal-order-input-core icon-date">
+                                                        <input type="text" class="input-calendar date_departure"
+                                                            value="">
+                                                    </div>
+                                                </div>
+                                                <div class="modal-order-input back_date">
+                                                    <div class="modal-order-input-title">
+                                                        обратно
+                                                    </div>
+                                                    <div class="modal-order-input-core icon-date arrival">
+                                                        <input type="text" class="input-calendar date_arrival" value="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-order-input modal-order-input-count modal-o-i-c-full">
+                                                <div class="modal-order-input-title">
+
+                                                    количество пассажиров
+
+                                                </div>
+                                                <div class="modal-order-input-core">
+                                                    <input type="text" class="passengers_qty is_numeric" value=""
+                                                        placeholder="Количество пассажиров">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-right">
+                                <input type="submit" class="submit-btn get_order_form" value="отправить" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger section section-title-a text-bloc" data-section-trigger="light">
+            <div class="container">
+                <div class="title-lined">
+                    <div class="title-l-a">
+                        <h2>Вертолётное такси</h2>
+                    </div>
+                </div>
+                <div class="def-text">
+                    <p>
+                        Как правило, это вариант для быстрого перемещения по городу либо в область. Можно оперативно
+                        долететь до аэропорта или слетать в ближайший городок на выходные. Или же просто оперативно
+                        добраться до точки назначения, не оглядываясь на пробки и прочие ситуации на дороге.
+                    </p>
+                    <p>
+                        Вертолётное такси станет отличным развлечением и само по себе. Это идеальный вариант для
+                        романтической прогулки, позволяющий посмотреть на привычные улицы под совершенно новым углом.
+                        Также
+                        используется для рабочих целей: чтобы осмотреть с высоты какой-либо масштабный объект, такой,
+                        как
+                        крупная стройплощадка.
+                    </p>
+                    <p>
+                        Обычно вертолёты рассчитаны на четыре посадочных места, одно из которых занимает
+                        квалифицированный
+                        пилот. Как правило, оплата в этом случае почасовая, либо поминутная. Зависит от типа вертолёта и
+                        количества пассажиров.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger modal-bloc subscription" data-section-trigger="dark">
+            <div class="new-container">
+                <div class="title">
+                    поможем выбрать <span>бизнес джет</span>
+                </div>
+                <div class="subscription-title">
+                    <div>Никакого спама, только полезная информация</div>
+                    <form class="form">
+                        <div class="form-input">
+                            <input type="text" placeholder="Имя">
+                        </div>
+                        <div class="form-input">
+                            <input type="tel" placeholder="Телефон">
+                        </div>
+                        <div class="input-btn">
+                            <input class="submit-btn" type="submit" placeholder="отправить">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger section section-title-a text-bloc bac-grey" data-section-trigger="light">
+            <div class="container">
+                <div class="title-lined">
+                    <div class="title-l-a">
+                        <h2>Самолётное такси</h2>
+                    </div>
+                </div>
+                <div class="def-text">
+                    <p>
+                        Небольшие частные джеты, летающие на расстояние от 500 до 1000 км. Идеальное решение для
+                        бизнес-поездок в относительно близкие города внутри страны. Но также самолётное такси
+                        используется и
+                        в туристических целях. Например, популярны экскурсии по Золотому Кольцу с использованием
+                        воздушной
+                        техники.
+                    </p>
+                    <p>
+                        Стоимость аренды небольшого маломощного самолёта гораздо меньше, чем заказ обычного
+                        бизнес-джета.
+                        Она складывается из дальности полёта, типа воздушного судна и количества пассажиров.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <img class="section-h-trigger img-section-seo" data-section-trigger="dark" src="./img/page_bac_medicine.jpg"
+            alt="Самолётное такси">
+
+
+
+        <section class="section-h-trigger question" data-section-trigger="light">
+            <div class="new-container">
+                <h2 class="title">Вопросы и ответы</h2>
+                <div class="question-container">
+                    <div>
+                        <div class="question-card">
+                            <div class="question-card-title">Быстро ли приходит ответ на запрос?</div>
+                            <div class="question-card-text">
+                                Арендовать самолёт по сниженной цене можно в том случае, если он уже летит куда-либо,
+                                не имея на борту пассажиров. Это могут быть технические рейсы, например, перегон
+                                из одного парка в другой. А могут быть возвратные — когда кто-то заказал полёт только
+                                в одну сторону, и теперь самолёт должен вернуться в точку назначения.
+                                Компании или человеку, сдающему джету в аренду, гораздо выгоднее взять попутчиков
+                                за половину стоимости, чем гонять пустую машину. Вариантов таких рейсов очень много,
+                                поэтому можно подобрать тот, который подойдёт именно вам.
+                            </div>
+                        </div>
+                        <div class="question-card">
+                            <div class="question-card-title">Что входит в стоимость аренды?</div>
+                            <div class="question-card-text">
+                                Арендовать самолёт по сниженной цене можно в том случае, если он уже летит куда-либо,
+                                не имея на борту пассажиров. Это могут быть технические рейсы, например, перегон
+                                из одного парка в другой. А могут быть возвратные — когда кто-то заказал полёт только
+                                в одну сторону, и теперь самолёт должен вернуться в точку назначения.
+                                Компании или человеку, сдающему джету в аренду, гораздо выгоднее взять попутчиков
+                                за половину стоимости, чем гонять пустую машину. Вариантов таких рейсов очень много,
+                                поэтому можно подобрать тот, который подойдёт именно вам.
+                            </div>
+                        </div>
+                        <div class="question-card">
+                            <div class="question-card-title">Что учесть при выборе самолета?</div>
+                            <div class="question-card-text">
+                                Арендовать самолёт по сниженной цене можно в том случае, если он уже летит куда-либо,
+                                не имея на борту пассажиров. Это могут быть технические рейсы, например, перегон
+                                из одного парка в другой. А могут быть возвратные — когда кто-то заказал полёт только
+                                в одну сторону, и теперь самолёт должен вернуться в точку назначения.
+                                Компании или человеку, сдающему джету в аренду, гораздо выгоднее взять попутчиков
+                                за половину стоимости, чем гонять пустую машину. Вариантов таких рейсов очень много,
+                                поэтому можно подобрать тот, который подойдёт именно вам.
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="question-card">
+                            <div class="question-card-title">Есть ли ограничения на провоз багажа?</div>
+                            <div class="question-card-text">
+                                Арендовать самолёт по сниженной цене можно в том случае, если он уже летит куда-либо,
+                                не имея на борту пассажиров. Это могут быть технические рейсы, например, перегон
+                                из одного парка в другой. А могут быть возвратные — когда кто-то заказал полёт только
+                                в одну сторону, и теперь самолёт должен вернуться в точку назначения.
+                                Компании или человеку, сдающему джету в аренду, гораздо выгоднее взять попутчиков
+                                за половину стоимости, чем гонять пустую машину. Вариантов таких рейсов очень много,
+                                поэтому можно подобрать тот, который подойдёт именно вам.
+                            </div>
+                        </div>
+                        <div class="question-card">
+                            <div class="question-card-title">Можно курить в салоне бизнес-джета?</div>
+                            <div class="question-card-text">
+                                Арендовать самолёт по сниженной цене можно в том случае, если он уже летит куда-либо,
+                                не имея на борту пассажиров. Это могут быть технические рейсы, например, перегон
+                                из одного парка в другой. А могут быть возвратные — когда кто-то заказал полёт только
+                                в одну сторону, и теперь самолёт должен вернуться в точку назначения.
+                                Компании или человеку, сдающему джету в аренду, гораздо выгоднее взять попутчиков
+                                за половину стоимости, чем гонять пустую машину. Вариантов таких рейсов очень много,
+                                поэтому можно подобрать тот, который подойдёт именно вам.
+                            </div>
+                        </div>
+                        <div class="question-card">
+                            <div class="question-card-title">Что называется чартерным авиарейсом?</div>
+                            <div class="question-card-text">
+                                Арендовать самолёт по сниженной цене можно в том случае, если он уже летит куда-либо,
+                                не имея на борту пассажиров. Это могут быть технические рейсы, например, перегон
+                                из одного парка в другой. А могут быть возвратные — когда кто-то заказал полёт только
+                                в одну сторону, и теперь самолёт должен вернуться в точку назначения.
+                                Компании или человеку, сдающему джету в аренду, гораздо выгоднее взять попутчиков
+                                за половину стоимости, чем гонять пустую машину. Вариантов таких рейсов очень много,
+                                поэтому можно подобрать тот, который подойдёт именно вам.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger tablet-bloc medicine bac-grey" data-section-trigger="light">
+            <div class="new-container">
+                <h2 class="title">Другие услуги бизнес-авиации</h2>
+                <div class="tablet-bloc-container">
+                    <table width="100%">
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Дополнительный летный час с экипажем</td>
+                        </tr>
+                        <tr>
+                            <td>Аэропортовые сборы</td>
+                        </tr>
+                        <tr>
+                            <td>Кейтеринг на борту частного самолета</td>
+                        </tr>
+                        <tr>
+                            <td>Обработка воздушного судна антиобледенительной жидкостью</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger modal-bloc subscription" data-section-trigger="dark">
+            <div class="new-container">
+                <div class="title">
+                    Заказать <span>Vip чартер</span>
+                </div>
+                <div class="subscription-title">
+                    <div>Никакого спама, только полезная информация</div>
+                    <form class="form">
+                        <div class="form-input">
+                            <input type="text" placeholder="Имя">
+                        </div>
+                        <div class="form-input">
+                            <input type="tel" placeholder="Телефон">
+                        </div>
+                        <div class="input-btn">
+                            <input class="submit-btn" type="submit" placeholder="отправить">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger section section-title-a text-bloc " data-section-trigger="light">
+            <div class="container">
+                <div class="title-lined">
+                    <div class="title-l-a">
+                        <h2>Как заказать VIP-чартер</h2>
+                    </div>
+                </div>
+                <div class="def-text">
+                    <p>
+                        Сообщите нам о своих потребностях и особых пожеланиях, и мы подберём рейс, который подойдёт
+                        именно
+                        вам. Вы можете даже заказать конкретную модель самолёта с определённой отделкой салона — и мы
+                        найдём
+                        такой. Более того — подберём предложение с оптимальной ценой.
+                    </p>
+                    <p>
+                        Если поездка неожиданная и срочная — не беда. Мы оперативно подберём вам подходящий джет,
+                        готовый
+                        отправиться через пару часов после того, как вы оставили заявку. Организуем полёт из России в
+                        любую
+                        точку мира и обратно. Позаботимся и о том, чтобы вы с комфортом добрались до аэропорта и из
+                        него,
+                        если есть такая необходимость.
+                    </p>
+                    <p>
+                        Наша компания уже десять лет занимается организацией частных перелётов высочайшего уровня. Вы не
+                        пожалеете, если обратитесь за помощью именно к нам.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger tablet-bloc bac-grey" data-section-trigger="light">
+            <div class="new-container">
+                <h2 class="title">СРАВНИТЕ С БИЗНЕС-КЛАССОМ</h2>
+                <div class="tablet-bloc-container">
+                    <table width="100%">
+                        <tr>
+                            <td width="40%"></td>
+                            <td align="center" width="20%">Аренда самолета</td>
+                            <td align="center" width="20%">Jet Sharing</td>
+                            <td align="center" width="20%">Бизнес класс</td>
+                        </tr>
+                        <tr>
+                            <td>Отдельные терминалы бизнес-авиации</td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/off_close.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Моментальная регистрация на рейс</td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/off_close.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Ожидание вылета в VIP-зале</td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/off_close.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Нет ограничений по багажу</td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/off_close.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Перевозка домашних животных в салоне</td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/circle_check.svg" alt=""></td>
+                            <td align="center"><img src="./img/off_close.svg" alt=""></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger benefits" data-section-trigger="light">
+            <div class="container">
+                <h2 class="title">JET PARTNERS В ЦИФРАХ</h2>
+                <div class="benefits-container">
+                    <div class="benefits-card">
+                        <span>15+</span>
+                        <div>Направленийпо системе Jet Sharing</div>
+                    </div>
+                    <div class="benefits-card">
+                        <span>12</span>
+                        <div>Лет опыта и экспертизыв бизнес-авиации</div>
+                    </div>
+                    <div class="benefits-card">
+                        <span>100+</span>
+                        <div>Рейсов осуществляем ежемесячно</div>
+                    </div>
+                    <div class="benefits-card">
+                        <span>8 000+</span>
+                        <div>Довольных клиентов доверились нам</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-h-trigger section section-title-a bac-grey form-contact-seo"
+            data-section-trigger="light">
+            <div class="container">
+                <div class="contact-row">
+                    <div class="contact-title title-l-a">
+                        <h2 class="title">Оставьте свой телефон <span>и мы перезвоним</span></h2>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-line">
+                                <input type="text" class="input" name="name" placeholder="Имя" />
+                            </div>
+                            <div class="form-line">
+                                <input type="tel" class="input" name="phone" placeholder="Телефон" />
+                            </div>
+                            <div class="form-line">
+                                <input type="email" class="input" name="email" placeholder="hello@gmail.com" />
+                            </div>
+                            <div class="form-line form-line-checkbox">
+                                <label>
+                                    <input type="checkbox" class="checkbox-core" />
+                                    <span class="checkbox-view"></span>
+                                    Я принимаю условия Политики конфиденциальности
+                                </label>
+                            </div>
+                            <div class="form-line">
+                                <div class="hover-holder-submit">
+                                    <input class="button" type="submit" disabled value="отправить" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section-h-trigger footer" data-section-trigger="dark">
+            <a href="#" class="footer-logo">
+                <img src="./img/logo-footer.svg" alt="" />
+            </a>
+            <div class="container">
+                <div class="footer-row">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li>
+                                <a href="#"> манифест </a>
+                            </li>
+                            <li>
+                                <a href="#"> возможности </a>
+                            </li>
+                            <li>
+                                <a href="#"> контакты </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li>
+                                <a href="tel:+7 999 224 71 23"> +7 999 224 71 23 </a>
+                            </li>
+                            <li>
+                                <a href="#"> sales@perola.aero </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    PEROLA SKY, UNIPESSOAL LDA <br />
+                                    Rua Conego Maio. 115 r/c Loja <br />
+                                    C Sao Bernardo, portugal
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-link-holder">
+                    <div class="footer-nav-link-holder">
+                        <a href="#" class="footer-nav-link">
+                            <img src="./img/round-arrow-bottom.svg" alt="" />
+                            скачать презентацию
+                        </a>
+                    </div>
+
+                    <ul class="footer-social">
+                        <li>
+                            <a href="#" class="footer-social-link">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.5 10.2511C19.5 15.3338 15.2599 19.4777 10 19.4777C4.74014 19.4777 0.5 15.3338 0.5 10.2511C0.5 5.1683 4.74014 1.02441 10 1.02441C15.2599 1.02441 19.5 5.1683 19.5 10.2511Z"
+                                        stroke="white"></path>
+                                    <path
+                                        d="M4.57654 10.0403L14.2182 6.42441C14.6657 6.26716 15.0565 6.5306 14.9115 7.18877L14.9124 7.18796L13.2707 14.7107C13.149 15.2441 12.8232 15.3738 12.3674 15.1225L9.86736 13.3304L8.66153 14.4603C8.5282 14.59 8.4157 14.6994 8.15737 14.6994L8.33487 12.2248L12.9682 8.15333C13.1699 7.98068 12.9232 7.88341 12.6574 8.05525L6.93154 11.5617L4.46321 10.8128C3.92737 10.6474 3.91571 10.2916 4.57654 10.0403Z"
+                                        fill="white"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="#"> политика конфиденциальности </a>
+                <a href="#"> правила использования </a>
+            </div>
+        </footer>
+        <div class="fixed-call">
+            <div class="fixed-call-body"></div>
+            <div class="fixed-call-text">
+                заявка <br />
+                на рейс
+            </div>
+            <div class="fixed-call-mob">
+                <svg width="28" height="15" viewBox="0 0 28 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M27.7173 1.50707C27.7173 1.50707 23.5597 -0.218056 21.4061 0.55204L17.6199 1.79137L7.01247 0L4.26292 1.1648L11.0703 3.925L5.59889 5.71913L1.22233 4.49636L0 5.01252L2.73292 7.26484L1.58543 7.75616L1.81548 7.94661H9.1467L27.8448 2.03979C28.0998 1.92386 28.0111 1.63956 27.709 1.50707"
+                        fill="white" />
+                    <path d="M25.2193 13.6547H4.33984V14.4828H25.2193V13.6547Z" fill="white" />
+                </svg>
+            </div>
+            <div class="fixed-modal-overlay"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="mob-menu">
+        <div class="mob-menu-close">
+            <img src="./img/mob-close.svg" alt="">
+        </div>
+        <div class="mob-menu-logo">
+            <a href="/">
+                <img src="./img/logo-mob.svg" alt="">
+            </a>
+        </div>
+        <ul class="mob-menu-list">
+            <li>
+                <a href="#">
+                    Манифест
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    возможности
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    контакты
+                </a>
+            </li>
+        </ul>
+        <ul class="mob-menu-contacts">
+            <li>
+                <a href="#">
+                    +7 999 224 71 23
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    SALES@PEROLA.AERO
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/telegram.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="modal">
+        <div class="modal-close">
+            <img src="./img/close.svg" alt="">
+        </div>
+        <div class="modal-bac"></div>
+        <div class="modal-contaner">
+            <div class="modal-logo">
+                <img src="./img/modal-logo.svg" alt="">
+            </div>
+            <div class="modal-contaner-step">
+                <div class="modal-step">
+                    <form class="form">
+                        <div class="form-left-input">
+                            <div class="form-conainer">
+                                <div class="form-input">
+                                    <span>откуда</span>
+                                    <input type="text" placeholder="Шереметьево (SVO)">
+                                </div>
+                                <div class="form-input">
+                                    <span>куда</span>
+                                    <input type="text" placeholder="Ницца (NCE)">
+                                </div>
+                                <div class="form-litepicker">
+                                    <div class="form-input">
+                                        <span>когда</span>
+                                        <input type="text" placeholder="20.06.2021">
+                                    </div>
+                                    <div class="form-input">
+                                        <span>обратно</span>
+                                        <input type="text" placeholder="20.06.2021">
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <span>количество пассажиров</span>
+                                    <input type="text" placeholder="2 пассажира">
+                                </div>
+                            </div>
+                            <div class="form-conainer">
+                                <div class="form-input">
+                                    <input type="text" placeholder="Шереметьево (SVO)">
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" placeholder="Ницца (NCE)">
+                                </div>
+                                <div class="form-litepicker">
+                                    <div class="form-input">
+                                        <input type="text" placeholder="20.06.2021">
+                                    </div>
+                                    <div class="form-input">
+                                        <input type="text" placeholder="20.06.2021">
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" placeholder="2 пассажира">
+                                </div>
+                                <div class="form-input-close">
+                                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.5126 11.9041L8.86927 10.2608L9.57214 9.55793L11.2155 11.2012L12.8588 9.55793L13.621 10.3202L11.9777 11.9635L13.621 13.6068L12.9182 14.3097L11.2748 12.6664L9.63153 14.3097L8.86927 13.5474L10.5126 11.9041Z"
+                                            fill="white" />
+                                        <circle cx="11.3137" cy="12" r="7.5" transform="rotate(-45 11.3137 12)"
+                                            stroke="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="modal-booking-add">
+                                добавить перелет
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.50158 7.366V5.042H8.49558V7.366H10.8196V8.444H8.49558V10.768H7.50158V8.444H5.17758V7.366H7.50158Z"
+                                        fill="white" />
+                                    <circle cx="8" cy="8" r="7.5" stroke="white" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="input-btn">
+                            <input type="submit" class="modal-info-btn" value="Отправить">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-step modal-form-right">
+                    <div class="step-back">
+                        <img src="./img/step-img.svg" alt="" />
+                        <div class="step-back-text">НАЗАД</div>
+                    </div>
+                    <form class="form">
+                        <div class="form-info-container">
+                            <div class="form-info-left">
+                                <div class="swiper-container form-info-swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div>
+                                                Информация о перелете 1
+                                            </div>
+                                            <div class="modal-info-list">
+                                                <div>Шереметьево (SVO)</div>
+                                                <div>Ницца (NCE)</div>
+                                            </div>
+                                            <div class="modal-info-bottom">
+                                                <div>20.06.2021</div>
+                                                <div>2 пассажира</div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div>
+                                                Информация о перелете 1
+                                            </div>
+                                            <div class="modal-info-list">
+                                                <div>Шереметьево (SVO)</div>
+                                                <div>Ницца (NCE)</div>
+                                            </div>
+                                            <div class="modal-info-bottom">
+                                                <div>20.06.2021</div>
+                                                <div>2 пассажира</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="info-btns-holder">
+                                        <div class="info-button-prev">
+                                            <img src="./img/left-info.svg" alt="" />
+                                        </div>
+                                        <div class="info-button-next">
+                                            <img src="./img/right-info.svg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-info-right">
+                                <div class="form-input">
+                                    <input type="text" placeholder="Имя">
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" placeholder="Телефон">
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" placeholder="E-mail">
+                                </div>
+                                <div class="form-input">
+                                    <textarea placeholder="Шереметьево (SVO)"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-right-info">
+                            <div>
+                                <label class="form-line-checkbox">
+                                    <input type="checkbox" class="checkbox-core" />
+                                    <span class="checkbox-view"></span>
+                                    Я принимаю условия Политики конфиденциальности
+                                </label>
+                                <label class="form-line-checkbox">
+                                    <input type="checkbox" class="checkbox-core" />
+                                    <span class="checkbox-view"></span>
+                                    Я соглашаюсь на обработку персональных данных
+                                </label>
+                            </div>
+                            <div class="input-btn">
+                                <input class="modal-info-btn" type="submit" value="Отправить">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/moment.js"></script>
+    <script src="./js/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/gsap/gsap.min.js"></script>
+    <script src="./js/gsap/ScrollTrigger.min.js"></script>
+    <script src="./js/litepicker.js"></script>
+    <!-- <script src="./assets/plugins/multiselect.js"></script> -->
+    <script src="./js/dist/index.js?ver=1"></script>
+    <script src="./js/dist/custom.js"></script>
+
+    <script src="./js/dist/main.js"></script>
+</body>
+
+</html>
