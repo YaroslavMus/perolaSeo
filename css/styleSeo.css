@@ -2,6 +2,18 @@ input,
 textarea {
   outline: none;
 }
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+.title {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 145%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
 .page-seo section {
   padding: 100px 0px;
 }
@@ -568,7 +580,7 @@ textarea {
   border-bottom: 1px solid rgb(0, 113, 128);
 }
 .tablet-bloc .title {
-  padding-bottom: 60px;
+  text-align: center;
 }
 .medicine .p-p-type,
 .corporate .p-p-type {
@@ -638,9 +650,35 @@ textarea {
 .def-text p:not(:last-child) {
   margin-bottom: 30px;
 }
+.numbers .title {
+  text-align: center;
+}
+.numbers-container {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  gap: 78px;
+}
+.numbers-card {
+  text-align: left;
+}
+.numbers-card div:nth-child(1) {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #007180;
+}
+.numbers-card div:nth-child(2) {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+.possibilities-preview:hover .p-p-type {
+  color: #007180;
+}
 .bac-darkWhite {
   background: #fff;
-}
-.bac-grey {
-  background: #f8f8f8;
 }
