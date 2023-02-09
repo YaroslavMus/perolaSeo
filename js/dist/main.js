@@ -18,17 +18,19 @@ const swiperReviews = new Swiper('.reviews', {
     },
   },
 });
-let flag = false;
 $('.question-card-title').click(function () {
   let item = $(this).next();
-  if (!flag) {
-    $(item).slideDown();
-    $(this).addClass('go');
-  } else {
-    $(item).slideUp();
-    $(this).removeClass('go');
+  switch ($(this).hasClass('question-card-title go')) {
+    case false:
+      $(item).slideDown();
+      $(this).addClass('go');
+      break;
+
+    default:
+      $(item).slideUp();
+      $(this).removeClass('go');
+      break;
   }
-  flag = !flag;
 });
 console.log($('.checkbox'));
 

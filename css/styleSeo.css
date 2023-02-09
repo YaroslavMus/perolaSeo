@@ -10,9 +10,14 @@ h4 {
 .title {
   font-weight: 300;
   font-size: 32px;
-  line-height: 145%;
+  line-height: 130%;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+.title span {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 130%;
 }
 .page-seo section {
   padding: 100px 0px;
@@ -145,6 +150,7 @@ h4 {
   display: block;
   width: 100%;
   height: 100%;
+  padding: 50px 0px 0px;
 }
 .subscription .title {
   font-weight: 300;
@@ -605,7 +611,8 @@ h4 {
 }
 .medicine .title span {
   display: block;
-  font-size: 40px;
+  font-weight: 300;
+  font-size: 32px;
   line-height: 130%;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -679,6 +686,29 @@ h4 {
 .possibilities-preview:hover .p-p-type {
   color: #007180;
 }
+.office-photo .title {
+  text-align: center;
+}
+.office-photo-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.office-photo-container div {
+  max-width: 407px;
+  overflow: hidden;
+}
+.office-photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease 0s;
+}
+.office-photo-container img:hover {
+  transform: scale(1.1);
+}
 .bac-darkWhite {
   background: #fff;
+}
+.title-lined{
+  width: 925px;
 }
