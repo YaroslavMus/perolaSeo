@@ -983,6 +983,9 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
+.fly button {
+  display: none;
+}
 @media screen and (max-width: 1440px) {
 }
 @media screen and (max-width: 1244px) {
@@ -1186,6 +1189,7 @@ h4 {
     font-size: 14px;
   }
   .fly button {
+    display: block;
     font-weight: 300;
     font-size: 14px;
     line-height: 100%;
