@@ -16,7 +16,7 @@ h4 {
 }
 .title span {
   font-weight: 300;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 130%;
 }
 .page-seo section {
@@ -135,7 +135,7 @@ h4 {
   margin-bottom: 55px;
 }
 .text-bloc .def-text {
-  width: 1030px;
+  max-width: 1030px;
   text-align: left;
 }
 .text-bloc ul {
@@ -147,10 +147,11 @@ h4 {
   margin: 0px;
 }
 .img-section-seo {
+  position: relative;
+  z-index: 10;
   display: block;
   width: 100%;
   height: 100%;
-  padding: 50px 0px 0px;
 }
 .subscription .title {
   font-weight: 300;
@@ -239,7 +240,7 @@ h4 {
   font-weight: 300;
   font-size: 26px;
   line-height: 150%;
-  width: 325px;
+  max-width: 325px;
   letter-spacing: 0;
   text-transform: none;
   color: #1d1d1d;
@@ -248,7 +249,7 @@ h4 {
   margin-bottom: 0px;
 }
 .form-contact-seo .contact-title {
-  width: 475px;
+  max-width: 475px;
 }
 .scheme-card {
   position: relative;
@@ -366,10 +367,14 @@ h4 {
   background: #007180;
 }
 .benefits-container .benefits-card:nth-child(2) {
-  left: 260px;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
 }
 .benefits-container .benefits-card:nth-child(4) {
-  left: 800px;
+  top: 50%;
+  left: 74%;
+  transform: translateY(-50%);
 }
 .benefits-card:nth-child(2n) div,
 .benefits-card:nth-child(2n) span {
@@ -392,10 +397,11 @@ h4 {
   padding: 42px 32px;
   margin-right: 25px;
   width: 470px;
+  height: 300px;
 }
 .reviews .swiper-slide p {
   overflow: hidden;
-  width: 320px;
+  max-width: 320px;
   height: 110px;
   margin: 11px 0px 32px;
 }
@@ -443,7 +449,7 @@ h4 {
   display: block;
 }
 .fly p {
-  width: 850px;
+  max-width: 850px;
   margin: 0px auto 50px;
   text-align: center;
   font-weight: 400;
@@ -707,7 +713,7 @@ h4 {
   transform: scale(1.1);
 }
 .title-lined {
-  width: 925px;
+  max-width: 925px;
 }
 .auto-container,
 .auto-card {
@@ -941,6 +947,9 @@ h4 {
 .section-gray {
   background-color: #f8f8f8;
 }
+.schedule .title {
+  text-align: left;
+}
 .schedule table tr td:last-child {
   text-align: end;
 }
@@ -949,9 +958,9 @@ h4 {
   align-items: center;
   gap: 8px;
 }
-.item-bloc-container{
+.item-bloc-container {
   display: flex;
-  gap: 25px ;
+  gap: 25px;
 }
 .item-bloc-card {
   max-width: 390px;
@@ -969,4 +978,296 @@ h4 {
   text-transform: uppercase;
   margin-top: 25px;
   color: rgba(0, 113, 128, 0.7);
+}
+.item-bloc-card-info {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1244px) {
+  .corporate .scheme-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .scheme-card {
+    text-align: center;
+    max-width: 260px;
+  }
+  .scheme-card::after {
+    display: none;
+  }
+  .scheme-card div:nth-child(1) {
+    margin: 0px auto;
+  }
+}
+@media screen and (max-width: 1105px) {
+  .modal-order-inputs .modal-order-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .modal-order-date {
+    align-items: normal;
+  }
+  .modal-right {
+    margin-top: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .new-container {
+    padding: 0px 10px;
+  }
+  .hero-arrow {
+    gap: 100px;
+  }
+  .modal-core form {
+    flex-direction: column;
+  }
+  .modal-right {
+    display: block;
+  }
+  .subscription .new-container > div {
+    width: 50%;
+  }
+  .subscription .title {
+    margin: 0px;
+  }
+  .subscription-title form {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .form-input input {
+    max-width: 100%;
+    width: 100%;
+  }
+  .subscription-title > div {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 3px;
+  }
+  .subscription form > div:nth-child(1) input,
+  .subscription form > div:nth-child(2) input {
+    border-radius: 10px 10px 10px 10px;
+  }
+  .subscription-title form .form-input {
+    margin-bottom: 5px;
+  }
+  .input-btn {
+    margin: 0px;
+  }
+  .more > .new-container > div:nth-child(1),
+  .more > .new-container > div:nth-child(2) {
+    width: 50%;
+  }
+  .question-container {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .question-container > div:nth-child(1),
+  .question-container > div:nth-child(2) {
+    width: auto;
+  }
+  .benefits-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits-card:nth-child(1n):not(:last-child) {
+    margin: 0px;
+    margin-bottom: 250px;
+  }
+  .benefits-container .benefits-card:nth-child(2) {
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .benefits-container .benefits-card:nth-child(4) {
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .tablet-bloc-container {
+    overflow-y: scroll;
+  }
+  .tablet-bloc-container table {
+    min-width: 515px;
+  }
+  .charter h4 {
+    margin: 10px 0px;
+    font-size: 15px;
+  }
+  .charter-swiper-price {
+    font-size: 15px;
+  }
+  .charter-swiper-model {
+    font-size: 15px;
+  }
+  .auto-title {
+    align-items: center;
+    flex-direction: column;
+  }
+  .auto-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .auto-title > div {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .select {
+    max-width: none;
+  }
+  .rent-bloc-container {
+    overflow-y: scroll;
+  }
+  .numbers-container {
+    flex-direction: column;
+  }
+  .numbers-card {
+    text-align: center;
+  }
+  .partner .partner-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .item-bloc-container {
+    flex-direction: column;
+  }
+  .medicine .p-p-type,
+  .corporate .p-p-type {
+    margin-bottom: 15px;
+  }
+  .form-contact-seo .contact-title {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-contact-seo .contact-title p {
+    font-size: 18px;
+  }
+  .business .p-p-title {
+    font-size: 18px;
+  }
+  .fly-container {
+    width: 100%;
+    max-height: 140px;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+  }
+  .fly-container:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(248, 248, 248, 1) 100%
+    );
+    pointer-events: none;
+  }
+  .fly-container div {
+    flex-wrap: wrap;
+  }
+  .fly h2 {
+    text-align: left;
+  }
+  .fly p {
+    display: none;
+  }
+  .fly-container span {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  .fly button {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(0, 113, 128, 0.8);
+    border: none;
+    background: none;
+    margin-top: 20px;
+  }
+  .fly-container-open {
+    max-height: 999px;
+    transition: max-height 1s ease-in-out;
+  }
+  
+  .fly-container-open:after {
+    display: none;
+  }
+  .fly-container div:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .fly-container div:nth-child(2n){
+    justify-content: start;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-arrow {
+    display: none;
+  }
+  .hero-title {
+    display: block;
+  }
+  .hero-bloc-seo .hero-title h1 {
+    font-size: 30px;
+    line-height: 47px;
+  }
+  .hero-bloc-seo p,
+  .more p {
+    font-size: 14px;
+  }
+  .page-seo section {
+    padding: 60px 0px;
+  }
+  .title,
+  .more .title,
+  .medicine .title span {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 5px;
+  }
+  .subscription .title,
+  .title span {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 5px;
+  }
+  .subscription .title {
+    margin: 0px;
+  }
+  .subscription .new-container {
+    flex-direction: column;
+  }
+  .subscription-title {
+    margin-top: 60px;
+  }
+  .subscription .new-container > div {
+    width: auto;
+  }
+  .more > .new-container {
+    flex-direction: column;
+  }
+  .more > .new-container > div:nth-child(1),
+  .more > .new-container > div:nth-child(2) {
+    width: auto;
+  }
+  .more > .new-container > div:nth-child(2) {
+    margin-top: 60px;
+  }
+  .more a {
+    text-align: center;
+  }
+  .item-bloc-container h3 {
+    font-size: 18px;
+  }
 }

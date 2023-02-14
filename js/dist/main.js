@@ -66,3 +66,7 @@ $(document).click(function (e) {
     $('.select__list').fadeOut();
   }
 });
+
+$('.fly-btn').on('click', function () {
+  $('.fly-container').toggleClass('fly-container-open');
+});
